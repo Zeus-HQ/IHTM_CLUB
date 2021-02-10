@@ -2,28 +2,14 @@ jQuery(document).ready(function () {
 
     jQuery(".play-1, .play-2").yu2fvl();
 
-    jQuery(".owl-carousel4").owlCarousel(
+    jQuery(".owl-carousel3").owlCarousel(
         {
             loop: true,
-            center: true,
-            margin: 20,
+            center: false,
+            margin: 22,
             responsiveClass: true,
             nav: true,
-            responsive: {
-                0: {
-                    items: 2,
-
-                },
-                600: {
-                    items: 3,
-
-                },
-                1000: {
-                    items: 5,
-                    nav: true,
-                    loop: true
-                }
-            }
+            items: 4
         }
     );
 

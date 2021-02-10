@@ -67,7 +67,7 @@ header {
   padding: 20px 0;
   padding-bottom: 50px; }
   header .bg-cover {
-    background: rgba(0, 0, 0, 0.7); }
+    background: rgba(0, 0, 0, 0); }
   header .input-group input {
     display: none; }
   header h2.logo {
@@ -205,7 +205,7 @@ header {
 
 .owl-carousel .owl-item img {
   display: block;
-  width: 100%; }
+  width: 100%;}
 
 .owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.disabled {
   display: none; }
@@ -368,13 +368,13 @@ header {
   background: #f7f7f7; }
 
 .vr-gallery p {
-  font-size: 15px;
+  font-size: 22px;
   color: #444444; }
   .vr-gallery p small {
     font-size: 11px;
     color: #03133a;
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 900;
     letter-spacing: 2px; }
 .vr-gallery .pd-md {
   padding-left: 0 !important;
@@ -395,7 +395,7 @@ header {
   margin-top: 5px;
   margin-bottom: 20px; }
 .vr-gallery .cus-pd {
-  padding: 50px 55px 10px 55px; }
+  padding: 50px 55px 0px 55px; }
 .vr-gallery .cus-pd2 {
   padding: 40px 45px 10px 45px; }
 .vr-gallery .card {
@@ -433,10 +433,11 @@ header {
 .vr-gallery .contact-box {
   background: #f7f7f7;
   display: inline-block;
-  max-width: 382px;
+  max-width: 333px;
+  max-height: 100%;
   padding: 40px 55px 40px 55px;
   position: absolute;
-  left: 0;
+  right: 0;
   bottom: 0; }
   .vr-gallery .contact-box::after {
     position: absolute;
@@ -497,7 +498,7 @@ header {
   width: 60px;
   height: 3px; }
 .fh5co-recent-news .card-img-overlay {
-  background-color: rgba(0, 0, 0, 0.67);
+  background-color: rgba(0, 0, 0, 0.315);
   transition: all 0.5s;
   -webkit-transition: all 0.5s;
   -ms-transition: all 0.5s;

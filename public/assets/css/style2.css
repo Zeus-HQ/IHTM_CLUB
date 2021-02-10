@@ -1,0 +1,48 @@
+.roundedImage{
+    border-radius: 50%;
+    width: 222px;
+    max-height: 222px;
+}
+
+.wideImage{
+    object-fit: fill;
+    display: inline;
+    position: relative;
+    width: 420px;
+    height: 420px;
+    filter: brightness(50%);
+}
+
+.tallImage{
+    height: 666px;
+}
+
+.widerSpace{
+    width: 111px;
+}
+
+.moveRight{
+    margin-left: 500px;
+}
+
+.paddingTop{
+    padding-top: 222px;
+}
+
+.movedUp{
+    z-index: 1;
+}
+
+.zoom{
+    
+    transition: transform .2s;
+    width: 222px;
+    height: 222px;
+    margin: auto auto;
+}
+
+.zoom:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(2.5);
+  }

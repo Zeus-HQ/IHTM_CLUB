@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "ihtm-club"
+    "default": "ihtm-club",
+    "version 1": "ihtm-club"
   }
 }
